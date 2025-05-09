@@ -9,7 +9,7 @@ The solution follows a modular, three-layer architecture:
 - **Network Layer:** Data is streamed over MQTT to a Raspberry Pi edge node running Node-RED.
 - **Application Layer:** Node-RED handles flow logic, visualization, and anomaly detection; data is logged to InfluxDB and used for AI model training in MATLAB.
 
-## 🧩 Features
+## 🧩 Project Structure
 
 - 🔁 **Real-Time Data Acquisition** from industrial sensors
 - 📊 **Live SCADA Dashboards** (Node-RED UI + historical charting)
@@ -18,16 +18,6 @@ The solution follows a modular, three-layer architecture:
 - 🌡️ **Environmental Integration** using OpenWeatherMap API
 - ⚠️ **Email Alerts** on process anomalies
 - 🧠 **Energy Forecasting** for adaptive load management
-
-## 📁 Project Structure
-/data-acquisition -> Arduino R4 sensor interfacing and MQTT publishing
-/signal-processing -> Filtering, smoothing, and time-series prep
-/data-streaming -> Node-RED flows (JSON export format)
-/data-storage -> InfluxDB schema, tokens, and cloud configs
-/visualization -> Grafana/Node-RED dashboard UIs
-/ai-prediction -> MATLAB models (.mat, .m) and regression logic
-/docs -> Diagrams, flowcharts, and system documentation
-
 
 ## 🚀 How to Deploy
 
@@ -39,7 +29,10 @@ The solution follows a modular, three-layer architecture:
 
 ## 📷 Sample Dashboard
 
-![Node-RED Dashboard](docs/dashboard.png)
+![Node-RED Flow and Dashboard](docs/nodered.png)
+![System Design and Achitechture](docs/system.png)
+![InfluxDB Explorer](docs/influxDB.png)
+![Energy Predictive Model GUI](docs/GUI.png)
 
 ## 🧠 AI Model: Energy Forecasting
 
@@ -63,7 +56,7 @@ Attached Later.
 
 ## 🤝 Acknowledgements
 
-This work was developed at Teesside University by M. Shahwaiz Afaqui and Adewale F. Ogabi under the School of Computing, Engineering and Information Sciences.
+Adewale F. Ogabi developed this work at Teesside University under the School of Computing, Engineering and Information Sciences.
 
 ## 📜 License
 
