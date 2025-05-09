@@ -29,9 +29,9 @@ The solution follows a modular, three-layer architecture (System.jpg):
 
 ## 📷 Resources
 
-![Node-RED Flow and Dashboard](nodered.png)
-![System Design and Achitechture](System.png)
-![InfluxDB Explorer](influxDB.png)
+![Node-RED Flow and Dashboard](nodered.jpg)
+![System Design and Achitechture](System.jpg)
+![InfluxDB Explorer](influxDB.jpg)
 ![Energy Predictive Model GUI](GUI.png)
 
 ## 🧠 AI Model: Energy Forecasting
