@@ -4,7 +4,7 @@ This project implements a scalable, real-time, IIoT-enabled SCADA system designe
 
 ## 🔧 System Architecture
 
-The solution follows a modular, three-layer architecture:
+The solution follows a modular, three-layer architecture (docs/system.png):
 - **Sensing Layer:** Arduino Uno R4 WiFi collects real-time process data (temperature, current) via DS18B20 and ACS712 sensors.
 - **Network Layer:** Data is streamed over MQTT to a Raspberry Pi edge node running Node-RED.
 - **Application Layer:** Node-RED handles flow logic, visualization, and anomaly detection; data is logged to InfluxDB and used for AI model training in MATLAB.
@@ -27,7 +27,7 @@ The solution follows a modular, three-layer architecture:
 4. Configure the OpenWeatherMap API key in the flow.
 5. Run the system and access the live dashboard via `http://<raspberry_pi_ip>:1880/ui`.
 
-## 📷 Sample Dashboard
+## 📷 Resources
 
 ![Node-RED Flow and Dashboard](docs/nodered.png)
 ![System Design and Achitechture](docs/system.png)
