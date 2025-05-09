@@ -4,7 +4,7 @@ This project implements a scalable, real-time, IIoT-enabled SCADA system designe
 
 ## 🔧 System Architecture
 
-The solution follows a modular, three-layer architecture (docs/system.png):
+The solution follows a modular, three-layer architecture (System.jpg):
 - **Sensing Layer:** Arduino Uno R4 WiFi collects real-time process data (temperature, current) via DS18B20 and ACS712 sensors.
 - **Network Layer:** Data is streamed over MQTT to a Raspberry Pi edge node running Node-RED.
 - **Application Layer:** Node-RED handles flow logic, visualization, and anomaly detection; data is logged to InfluxDB and used for AI model training in MATLAB.
@@ -29,10 +29,10 @@ The solution follows a modular, three-layer architecture (docs/system.png):
 
 ## 📷 Resources
 
-![Node-RED Flow and Dashboard](docs/nodered.png)
-![System Design and Achitechture](docs/system.png)
-![InfluxDB Explorer](docs/influxDB.png)
-![Energy Predictive Model GUI](docs/GUI.png)
+![Node-RED Flow and Dashboard](nodered.png)
+![System Design and Achitechture](system.png)
+![InfluxDB Explorer](influxDB.png)
+![Energy Predictive Model GUI](GUI.png)
 
 ## 🧠 AI Model: Energy Forecasting
 
