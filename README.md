@@ -20,7 +20,10 @@ The solution follows a modular, three-layer architecture
 - 🌡️ **Environmental Integration** using OpenWeatherMap API
 - ⚠️ **Email Alerts** on process anomalies
 - 🧠 **Energy Forecasting** for adaptive load management
-  ![InfluxDB Explorer](GUI.jpg)
+
+## 📷 Node-RED Flow
+
+![Node-RED Flow and Dashboard](noderedflow.png)
 
 ## 🚀 How to Deploy
 
@@ -29,10 +32,6 @@ The solution follows a modular, three-layer architecture
 3. Set up InfluxDB bucket and API token.
 4. Configure the OpenWeatherMap API key in the flow.
 5. Run the system and access the live dashboard via `http://<raspberry_pi_ip>:1880/ui`.
-
-## 📷 Resources
-
-![Node-RED Flow and Dashboard](noderedflow.png)
 
 ## 🧠 AI Model: Energy Forecasting
 
