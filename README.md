@@ -20,3 +20,51 @@ The solution follows a modular, three-layer architecture:
 - 🧠 **Energy Forecasting** for adaptive load management
 
 ## 📁 Project Structure
+/data-acquisition -> Arduino R4 sensor interfacing and MQTT publishing
+/signal-processing -> Filtering, smoothing, and time-series prep
+/data-streaming -> Node-RED flows (JSON export format)
+/data-storage -> InfluxDB schema, tokens, and cloud configs
+/visualization -> Grafana/Node-RED dashboard UIs
+/ai-prediction -> MATLAB models (.mat, .m) and regression logic
+/docs -> Diagrams, flowcharts, and system documentation
+
+
+## 🚀 How to Deploy
+
+1. Flash Arduino with provided `.ino` code.
+2. Install Node-RED on Raspberry Pi and import the provided flow.
+3. Set up InfluxDB bucket and API token.
+4. Configure the OpenWeatherMap API key in the flow.
+5. Run the system and access the live dashboard via `http://<raspberry_pi_ip>:1880/ui`.
+
+## 📷 Sample Dashboard
+
+![Node-RED Dashboard](docs/dashboard.png)
+
+## 🧠 AI Model: Energy Forecasting
+
+A MATLAB regression model (`energy_model.mat`) predicts energy consumption using:
+- Process Temperature
+- Environmental Temperature
+
+> **Prediction Equation:**
+> `EnergyCon = 0.2761 – 2.82e-5 * ProcTemp – 0.00586 * EnvTemp`
+
+## 🛡️ Security Features
+
+- MQTT with username/password authentication
+- Network isolation and MAC filtering
+- Token-based InfluxDB authentication
+- Email-based anomaly alerts with time-based throttling
+
+## 📚 References
+
+Attached Later.
+
+## 🤝 Acknowledgements
+
+This work was developed at Teesside University by M. Shahwaiz Afaqui and Adewale F. Ogabi under the School of Computing, Engineering and Information Sciences.
+
+## 📜 License
+
+Available soon.
