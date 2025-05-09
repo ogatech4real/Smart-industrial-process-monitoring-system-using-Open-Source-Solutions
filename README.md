@@ -30,7 +30,7 @@ The solution follows a modular, three-layer architecture (System.jpg):
 ## 📷 Resources
 
 ![Node-RED Flow and Dashboard](nodered.png)
-![System Design and Achitechture](system.png)
+![System Design and Achitechture](System.png)
 ![InfluxDB Explorer](influxDB.png)
 ![Energy Predictive Model GUI](GUI.png)
 
