@@ -152,9 +152,9 @@ if st.button('Predict Energy Consumption'):
 └── README.md                # Project documentation
 
 
-## 🚀 How to Deploy
+##  How to Deploy
 
-1. Flash Arduino with provided `.ino` code.
+1. Flash Arduino with the provided `.ino` code.
 2. Install Node-RED on Raspberry Pi and import the provided flow.
 3. Set up InfluxDB bucket and API token.
 4. Configure the OpenWeatherMap API key in the flow.
@@ -164,10 +164,14 @@ if st.button('Predict Energy Consumption'):
 This project demonstrates the feasibility of predictive maintenance and energy optimization using open-source technologies.
 It provides a practical pathway for engineers and researchers to integrate AI into industrial processes, enabling smarter, data-driven, and energy-efficient operations..
 
-Author
+## Author
 Adewale Ogabi
+
 AI & Cloud Automation Engineer | Teesside University
+
 Email Me hello@adewaleogabi.info
+
 https://www.linkedin.com/in/ogabiadewale
+
 
 
