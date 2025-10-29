@@ -1,4 +1,4 @@
-#  Industrial Automation System Design Using Open-Source IIoT SCADA with AI-Enhanced Predictive Analytics
+dge#  Industrial Automation System Design Using Open-Source IIoT SCADA with AI-Enhanced Predictive Analytics
 
 This project demonstrates the design and implementation of an **open-source IIoT-based SCADA system** that integrates **edge computing**, **MQTT communication**, and **AI-driven predictive analytics** for intelligent energy management.  
 The framework provides a **cost-effective, modular, and scalable** approach to modernising industrial control systems, enabling real-time monitoring, environmental data integration, and adaptive energy optimisation.
@@ -25,7 +25,7 @@ The system follows a modular, three-layer architecture:
 ![System Architecture](System.jpg)
 
 - **Sensing Layer:** Arduino Uno R4 Wi-Fi collects real-time process data (temperature, current) via DS18B20 and ACS712 sensors.  
-- **Network Layer:** Data is streamed over MQTT to a Raspberry Pi edge node running Node-RED.  
+- **Edge Layer:** Data is streamed over MQTT to a Raspberry Pi edge node running Node-RED.  
 - **Application Layer:** Node-RED handles flow logic, visualization, and anomaly detection; data is logged to InfluxDB and used for AI model training in Python.
 
 ---
