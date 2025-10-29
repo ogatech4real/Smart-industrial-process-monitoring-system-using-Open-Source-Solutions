@@ -13,7 +13,7 @@ st.markdown("""
 This tool is used to estimate **energy consumption** based on:
 - Process Temperature
 - Environmental Temperature
-- Read more here: https://shorturl.at/6mFjR
+- Read more here: https://bit.ly/Open_Source_SCADA
 """)
 
 # Input form
@@ -38,3 +38,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
